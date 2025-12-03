@@ -1,6 +1,24 @@
 # EEG Temporal Misalignment
 
-Analysis workspace for exploring temporal misalignment effects in EEG signals. The project is organized into stage-specific folders so data preprocessing, model training, and supplementary analyses stay separated.
+This repository provides the code to reproduce the analyses presented in:
+
+**Temporal misalignment in scene perception: Divergent representations of locomotive action affordances in human brain responses and DNNs.**  
+Bartnik, C. G., Fraats, E. I., & Groen, I. I. A. (2025). *Cognitive Computational Neuroscience Proceedings (CCN-P).*  
+[Paper link](https://openreview.net/pdf?id=6FvgJHC4dq)
+
+The project investigates how locomotive action affordances unfold over time during scene perception using high-density EEG. Time-resolved representational similarity analysis (RSA) and spatiotemporal EEG–fMRI fusion are used to evaluate the temporal emergence of affordance-related representations and to compare these with a set of state-of-the-art deep neural network (DNN) features.
+
+Key findings include:
+- Affordance representations emerge rapidly (approximately 200 ms after stimulus onset).  
+- These representations are distinct from object-related and low-level (GIST) features.  
+- EEG–fMRI spatiotemporal fusion reveals a hierarchical contribution of scene-selective regions OPA and PPA.  
+- Current DNNs capture these dynamics only partially, replicating divergences previously observed in fMRI.
+
+If you encounter issues with the code, please open an issue or submit a pull request.
+
+Raw EEG data used in this study is publicly available on OSF:  
+[https://osf.io/v3rcq/overview](https://osf.io/v3rcq/overview)
+
 
 ## Repository layout
 - `00_preprocessing/`: scripts and notebooks for raw EEG cleaning, filtering, and epoching.
