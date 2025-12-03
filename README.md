@@ -19,6 +19,8 @@ If you encounter issues with the code, please open an issue or submit a pull req
 Raw EEG data used in this study is publicly available on OSF:  
 [https://osf.io/v3rcq/overview](https://osf.io/v3rcq/overview)
 
+(Also download and extract `Additional_experimental_files.zip` from OSF; it contains model RDMs used in the analyses.)
+
 
 ## Repository layout
 - `00_preprocessing/`: scripts and notebooks for raw EEG cleaning, filtering, and epoching.
