@@ -31,8 +31,3 @@ Raw EEG data used in this study is publicly available on OSF:
 1. Create the Conda environment: `conda env create -f environment.yml`
 2. Activate it: `conda activate eeg-temporal-misalignment`
 3. Add your data and notebooks/scripts into the stage folders above.
-
-## Notes
-- Data is not included; place raw and processed EEG files under the appropriate stage directory.
-- Add any additional dependencies you use to `environment.yml` and re-export with `conda env export --from-history`.
-- Initialize Git remotes as needed: `git remote add origin <url>` then `git push -u origin main`.
