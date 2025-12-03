@@ -23,11 +23,11 @@ Raw EEG data used in this study is publicly available on OSF:
 
 
 ## Repository layout
-- `00_preprocessing/`: scripts and notebooks for raw EEG cleaning, filtering, and epoching.
+- `00_preprocessing/`: script for raw EEG cleaning, filtering, and epoching.
 - `01_Affordance_vs_Gist/`: experiments comparing affordance and gist representations.
-- `02_Spatiotemporalfusion/`: feature fusion and temporal alignment experiments.
-- `03_DNN/`: deep learning models and training runs.
-- `04_Supplement_analysis/`: follow-up analyses, figures, or tables.
+- `02_Spatiotemporalfusion/`: Spatiotemporal fusion of fMRI and EEG data
+- `03_DNN/`: DNN feature alignment with EEG data
+- `04_Supplement_analysis/`: follow-up analyses
 
 ## Getting started
 1. Create the Conda environment: `conda env create -f environment.yml`
