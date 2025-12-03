@@ -1,0 +1,16 @@
+name: eeg-temporal-misalignment
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - scipy
+  - pandas
+  - mne
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - jupyterlab
+  - pip:
+      - ipykernel
